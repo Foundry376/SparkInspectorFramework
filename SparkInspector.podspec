@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.summary      = "Runtime Debugger for iOS Apps."
   s.homepage     = "http://www.sparkinspector.com"
   s.author       = "Foundry376"
-  s.source       = { :git => "https://github.com/Foundry376/SparkInspectorFramework.git" }
+  s.source       = { :git => "https://github.com/Foundry376/SparkInspectorFramework.git", :tag => s.version.to_s }
   s.platform     = :ios, '5.0'
 
-  s.source_files = 'SparkInspector.framework/Headers/*.h'
+  s.source_files = 'SparkInspector.framework/Versions/A/Headers/*.h'
   s.preserve_paths = 'SparkInspector.framework'
   s.requires_arc = true
 
