@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name         = "SparkInspectorSDK"
-  s.version      = "1.0.6"
+  s.name         = "SparkInspector"
+  s.version      = "1.0.7"
   s.summary      = "Runtime Debugger for iOS Apps."
   s.homepage     = "http://www.sparkinspector.com"
   s.author       = "Foundry376"
-  s.source       = { :git => "https://github.com/christophercotton/SparkInspectorSDK.git" }
+  s.source       = { :git => "https://github.com/Foundry376/SparkInspectorFramework.git" }
   s.platform     = :ios, '5.0'
 
   s.source_files = 'SparkInspector.framework/Headers/*.h'
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Copyright', :file => 'LICENSE' }
   s.frameworks = 'QuartzCore', 'SparkInspector'
   s.libraries    = 'z' 
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/SparkInspectorSDK"', 'OTHER_LDFLAGS' => '-ObjC' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/SparkInspector"', 'OTHER_LDFLAGS' => '-ObjC' }
 end
