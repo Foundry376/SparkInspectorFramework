@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SparkInspector"
-  s.version      = "1.0.13"
+  s.version      = "1.1"
   s.summary      = "Runtime Debugger for iOS Apps."
   s.homepage     = "http://www.sparkinspector.com"
   s.author       = "Foundry376"
