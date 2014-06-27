@@ -16,6 +16,7 @@
 {
     SparkServer                 * _server;
     NSMutableArray              * _connections;
+	dispatch_queue_t			  _connectionsActionQueue;
     NSDictionary                * _preferences;
     
     BOOL                          _initialSwizzlingPerformed;
